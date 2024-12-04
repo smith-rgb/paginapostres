@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #43b9e7;
+}
+
+header {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #f581dc;
+  color: rgb(15, 6, 8);
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav ul li {
+  position: relative;
+  margin: 0 20px;
+}
+
+nav ul li a {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #645c5c;
+  border-radius: 5px;
+}
+
+nav .submenu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: #6e1e1e;
+  list-style: none;
+  padding: 10px 0;
+}
+
+nav ul li:hover .submenu {
+  display: block;
+}
+
+nav .submenu li {
+  padding: 5px 20px;
+}
+
+nav .submenu li a {
+  color: rgb(252, 45, 45);
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+}
+
+#inicio {
+  text-align: center;
+  background-color: #92e7e7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#menu {
+  background-color: #95d68c;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#suscribase form {
+  display: flex;
+  justify-content: center;
+}
+
+#suscribase input {
+  padding: 10px;
+  font-size: 1em;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+#suscribase button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#suscribase button:hover {
+  background-color: #555;
+}
+
+footer { 
+    text-align: center;
+    padding: 1px 0;
+    background-color: #7e7878;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #postre1 {
+    margin: 100px 0;
+    border: 1px solid #c41818;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+
+  }
+
+  .postres55 {
+display: flex;
+justify-content: center;
+  }
+
+  #galletas{
+    display: flex;
+    justify-content: center;
+      }
+
+      .galletas11{
+
+        display: flex;
+        justify-content: center;
+          }
+
+  #helados{
+    display: flex;
+justify-content: center;
+  }
+  
+
+  .helados22{
+    display: flex;
+justify-content: center;
+  }
+  
+
+  #galletas {
+    background-color: #95d68c;
+    border-radius: 8px;
+    box-shadow: 10px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    padding: 20px;
+  }
+
+  #helados {
+      background-color: #95d68c;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 30px;
+      padding: 10px;
+    }
+  
+    #contactenos {
+
+    }
